@@ -26,8 +26,8 @@ class MLStrat(Strategy):
         self.set_trader(MLTrader())
         self.set_backtester(YahooDataBacktesting())
 
-start_date = datetime(2024, 1, 25)
-end_date = datetime(2023, 11, 25)
+start_date = datetime(2023, 11, 25)
+end_date = datetime(2024, 1, 25)
 
 broker = Alpaca(ALPACA_CREDS)
 
